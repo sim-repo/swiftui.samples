@@ -13,6 +13,22 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
+            VStack {
+                ZStack {
+                    Text("DrawingGroup")
+                        .foregroundColor(.black)
+                        .padding(20)
+                        .background(Color.blue)
+                    Text("DrawingGroup")
+                        .blur(radius: 2)
+                }
+                .font(.largeTitle)
+                .compositingGroup()
+                .opacity(1.0)
+            }
+             .background(Color.white)
+             .drawingGroup()
+            
             ColorCyclingCircle(amount: self.colorCycle)
                 .frame(width: 300, height: 300)
             
