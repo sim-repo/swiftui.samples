@@ -15,3 +15,5 @@ struct ContentView: View {
     }
 }
 ```
+![Image of Yaktocat](https://sim-repo.github.com/images/swiftui1.png)
+
