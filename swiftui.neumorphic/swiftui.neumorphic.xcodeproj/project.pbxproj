@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		168257CF253EC5DD00FD2540 /* swiftui_neumorphicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168257CE253EC5DD00FD2540 /* swiftui_neumorphicApp.swift */; };
+		168257D1253EC5DD00FD2540 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168257D0253EC5DD00FD2540 /* ContentView.swift */; };
+		168257D3253EC5DD00FD2540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168257D2253EC5DD00FD2540 /* Assets.xcassets */; };
+		168257D6253EC5DD00FD2540 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168257D5253EC5DD00FD2540 /* Preview Assets.xcassets */; };
+		168257E3253EC5F500FD2540 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168257DF253EC5F400FD2540 /* UIColorExtension.swift */; };
+		168257E4253EC5F500FD2540 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168257E0253EC5F400FD2540 /* ViewExtension.swift */; };
+		168257E5253EC5F500FD2540 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168257E1253EC5F400FD2540 /* ColorExtension.swift */; };
+		168257E6253EC5F500FD2540 /* LinearGradientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168257E2253EC5F400FD2540 /* LinearGradientExtension.swift */; };
+		168257EA253EC65A00FD2540 /* NeumorphicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168257E9253EC65A00FD2540 /* NeumorphicButton.swift */; };
+		168257EF253ECAF100FD2540 /* PolygonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168257EE253ECAF100FD2540 /* PolygonShape.swift */; };
+		168257F2253ECCE100FD2540 /* NeumorphicButton2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168257F1253ECCE100FD2540 /* NeumorphicButton2.swift */; };
+		168257F6253F0DEC00FD2540 /* NeumorphicButton3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168257F5253F0DEC00FD2540 /* NeumorphicButton3.swift */; };
+		168257FA253F1ACF00FD2540 /* DarkBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168257F9253F1ACF00FD2540 /* DarkBackground.swift */; };
+		168257FE253F1AF600FD2540 /* DarkButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168257FD253F1AF600FD2540 /* DarkButtonStyle.swift */; };
+		16825801253F215200FD2540 /* DarkToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16825800253F215200FD2540 /* DarkToggleStyle.swift */; };
+		16825805253F25C300FD2540 /* ColorfulButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16825804253F25C300FD2540 /* ColorfulButtonStyle.swift */; };
+		16825808253F260300FD2540 /* ColorfulBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16825807253F260300FD2540 /* ColorfulBackground.swift */; };
+		1682580B253F26BB00FD2540 /* ColorfulToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1682580A253F26BB00FD2540 /* ColorfulToggleStyle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		168257CB253EC5DD00FD2540 /* swiftui.neumorphic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftui.neumorphic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		168257CE253EC5DD00FD2540 /* swiftui_neumorphicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_neumorphicApp.swift; sourceTree = "<group>"; };
+		168257D0253EC5DD00FD2540 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		168257D2253EC5DD00FD2540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		168257D5253EC5DD00FD2540 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		168257D7253EC5DD00FD2540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168257DF253EC5F400FD2540 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		168257E0253EC5F400FD2540 /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		168257E1253EC5F400FD2540 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		168257E2253EC5F400FD2540 /* LinearGradientExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearGradientExtension.swift; sourceTree = "<group>"; };
+		168257E9253EC65A00FD2540 /* NeumorphicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButton.swift; sourceTree = "<group>"; };
+		168257EE253ECAF100FD2540 /* PolygonShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolygonShape.swift; sourceTree = "<group>"; };
+		168257F1253ECCE100FD2540 /* NeumorphicButton2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButton2.swift; sourceTree = "<group>"; };
+		168257F5253F0DEC00FD2540 /* NeumorphicButton3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButton3.swift; sourceTree = "<group>"; };
+		168257F9253F1ACF00FD2540 /* DarkBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkBackground.swift; sourceTree = "<group>"; };
+		168257FD253F1AF600FD2540 /* DarkButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkButtonStyle.swift; sourceTree = "<group>"; };
+		16825800253F215200FD2540 /* DarkToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkToggleStyle.swift; sourceTree = "<group>"; };
+		16825804253F25C300FD2540 /* ColorfulButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorfulButtonStyle.swift; sourceTree = "<group>"; };
+		16825807253F260300FD2540 /* ColorfulBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorfulBackground.swift; sourceTree = "<group>"; };
+		1682580A253F26BB00FD2540 /* ColorfulToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorfulToggleStyle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		168257C8253EC5DD00FD2540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		168257C2253EC5DD00FD2540 = {
+			isa = PBXGroup;
+			children = (
+				168257CD253EC5DD00FD2540 /* swiftui.neumorphic */,
+				168257CC253EC5DD00FD2540 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		168257CC253EC5DD00FD2540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				168257CB253EC5DD00FD2540 /* swiftui.neumorphic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		168257CD253EC5DD00FD2540 /* swiftui.neumorphic */ = {
+			isa = PBXGroup;
+			children = (
+				168257F8253F1ABA00FD2540 /* Bkg */,
+				168257ED253ECAE400FD2540 /* Shapes */,
+				168257E8253EC63300FD2540 /* Controls */,
+				168257DE253EC5F400FD2540 /* Extensions */,
+				168257CE253EC5DD00FD2540 /* swiftui_neumorphicApp.swift */,
+				168257D0253EC5DD00FD2540 /* ContentView.swift */,
+				168257D2253EC5DD00FD2540 /* Assets.xcassets */,
+				168257D7253EC5DD00FD2540 /* Info.plist */,
+				168257D4253EC5DD00FD2540 /* Preview Content */,
+			);
+			path = swiftui.neumorphic;
+			sourceTree = "<group>";
+		};
+		168257D4253EC5DD00FD2540 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				168257D5253EC5DD00FD2540 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		168257DE253EC5F400FD2540 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				168257DF253EC5F400FD2540 /* UIColorExtension.swift */,
+				168257E0253EC5F400FD2540 /* ViewExtension.swift */,
+				168257E1253EC5F400FD2540 /* ColorExtension.swift */,
+				168257E2253EC5F400FD2540 /* LinearGradientExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		168257E8253EC63300FD2540 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				168257E9253EC65A00FD2540 /* NeumorphicButton.swift */,
+				168257F1253ECCE100FD2540 /* NeumorphicButton2.swift */,
+				168257F5253F0DEC00FD2540 /* NeumorphicButton3.swift */,
+				168257FD253F1AF600FD2540 /* DarkButtonStyle.swift */,
+				16825800253F215200FD2540 /* DarkToggleStyle.swift */,
+				16825804253F25C300FD2540 /* ColorfulButtonStyle.swift */,
+				1682580A253F26BB00FD2540 /* ColorfulToggleStyle.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		168257ED253ECAE400FD2540 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				168257EE253ECAF100FD2540 /* PolygonShape.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		168257F8253F1ABA00FD2540 /* Bkg */ = {
+			isa = PBXGroup;
+			children = (
+				168257F9253F1ACF00FD2540 /* DarkBackground.swift */,
+				16825807253F260300FD2540 /* ColorfulBackground.swift */,
+			);
+			path = Bkg;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		168257CA253EC5DD00FD2540 /* swiftui.neumorphic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168257DA253EC5DD00FD2540 /* Build configuration list for PBXNativeTarget "swiftui.neumorphic" */;
+			buildPhases = (
+				168257C7253EC5DD00FD2540 /* Sources */,
+				168257C8253EC5DD00FD2540 /* Frameworks */,
+				168257C9253EC5DD00FD2540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swiftui.neumorphic;
+			productName = swiftui.neumorphic;
+			productReference = 168257CB253EC5DD00FD2540 /* swiftui.neumorphic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		168257C3253EC5DD00FD2540 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					168257CA253EC5DD00FD2540 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 168257C6253EC5DD00FD2540 /* Build configuration list for PBXProject "swiftui.neumorphic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 168257C2253EC5DD00FD2540;
+			productRefGroup = 168257CC253EC5DD00FD2540 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				168257CA253EC5DD00FD2540 /* swiftui.neumorphic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		168257C9253EC5DD00FD2540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168257D6253EC5DD00FD2540 /* Preview Assets.xcassets in Resources */,
+				168257D3253EC5DD00FD2540 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		168257C7253EC5DD00FD2540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168257D1253EC5DD00FD2540 /* ContentView.swift in Sources */,
+				168257F6253F0DEC00FD2540 /* NeumorphicButton3.swift in Sources */,
+				168257EA253EC65A00FD2540 /* NeumorphicButton.swift in Sources */,
+				168257CF253EC5DD00FD2540 /* swiftui_neumorphicApp.swift in Sources */,
+				16825808253F260300FD2540 /* ColorfulBackground.swift in Sources */,
+				168257E6253EC5F500FD2540 /* LinearGradientExtension.swift in Sources */,
+				16825801253F215200FD2540 /* DarkToggleStyle.swift in Sources */,
+				168257F2253ECCE100FD2540 /* NeumorphicButton2.swift in Sources */,
+				168257E4253EC5F500FD2540 /* ViewExtension.swift in Sources */,
+				168257E3253EC5F500FD2540 /* UIColorExtension.swift in Sources */,
+				16825805253F25C300FD2540 /* ColorfulButtonStyle.swift in Sources */,
+				168257EF253ECAF100FD2540 /* PolygonShape.swift in Sources */,
+				168257FE253F1AF600FD2540 /* DarkButtonStyle.swift in Sources */,
+				1682580B253F26BB00FD2540 /* ColorfulToggleStyle.swift in Sources */,
+				168257E5253EC5F500FD2540 /* ColorExtension.swift in Sources */,
+				168257FA253F1ACF00FD2540 /* DarkBackground.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		168257D8253EC5DD00FD2540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		168257D9253EC5DD00FD2540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		168257DB253EC5DD00FD2540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui.neumorphic/Preview Content\"";
+				DEVELOPMENT_TEAM = 78S4SSQ86F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = swiftui.neumorphic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garneteum.swiftui-neumorphic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		168257DC253EC5DD00FD2540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui.neumorphic/Preview Content\"";
+				DEVELOPMENT_TEAM = 78S4SSQ86F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = swiftui.neumorphic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garneteum.swiftui-neumorphic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		168257C6253EC5DD00FD2540 /* Build configuration list for PBXProject "swiftui.neumorphic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168257D8253EC5DD00FD2540 /* Debug */,
+				168257D9253EC5DD00FD2540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168257DA253EC5DD00FD2540 /* Build configuration list for PBXNativeTarget "swiftui.neumorphic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168257DB253EC5DD00FD2540 /* Debug */,
+				168257DC253EC5DD00FD2540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 168257C3253EC5DD00FD2540 /* Project object */;
+}
