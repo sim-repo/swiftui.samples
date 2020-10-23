@@ -21,7 +21,13 @@ struct NeumorphicButton2: View {
     var imageSystemName: String
     let size: CGFloat
     var type: ButtonItemType
+    
+    
+    let gradientNormal: LinearGradient //.lairDiagonalLightBorder
+    let gradientWhenPressed:LinearGradient //.lairHorizontalDarkToLight
+    
     let action: (()->Void)?
+    
     
     func isSelected() -> Bool {
         return selectedItem == type
@@ -99,7 +105,7 @@ struct NeumorphicButton2: View {
         }
         .overlay(
             RoundedRectangle(cornerRadius: size * 8 / 16)
-                .stroke(LinearGradient.lairDiagonalLightBorder, lineWidth: 1)
+                .stroke(gradientNormal, lineWidth: 1)
         )
     }
     
@@ -146,13 +152,13 @@ struct NeumorphicButton2: View {
         }
         .overlay(
             RoundedRectangle(cornerRadius: size * 8 / 16)
-                .stroke(LinearGradient.lairHorizontalDarkToLight, lineWidth: 2)
+                .stroke(gradientWhenPressed, lineWidth: 2)
         )
     }
 }
 
 struct NeumorphicButton2_Previews: PreviewProvider {
     static var previews: some View {
-        NeumorphicButton2(selectedItem: .constant(.mic), imageSystemName: "mic", size: 40, type: .trash, action: nil)
+        NeumorphicButton2(selectedItem: .constant(.mic), imageSystemName: "mic", size: 40, type: .trash, gradientNormal: .lairDiagonalLightBorder, gradientWhenPressed: .lairHorizontalDarkToLight,  action: nil)
     }
 }

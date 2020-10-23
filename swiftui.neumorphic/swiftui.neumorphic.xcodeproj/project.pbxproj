@@ -25,6 +25,13 @@
 		16825805253F25C300FD2540 /* ColorfulButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16825804253F25C300FD2540 /* ColorfulButtonStyle.swift */; };
 		16825808253F260300FD2540 /* ColorfulBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16825807253F260300FD2540 /* ColorfulBackground.swift */; };
 		1682580B253F26BB00FD2540 /* ColorfulToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1682580A253F26BB00FD2540 /* ColorfulToggleStyle.swift */; };
+		1682580F253F621800FD2540 /* DarkNeumorphicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1682580E253F621800FD2540 /* DarkNeumorphicButton.swift */; };
+		16825813253F829900FD2540 /* NeumorphicButton5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16825812253F829900FD2540 /* NeumorphicButton5.swift */; };
+		168868E325403A0700C1E209 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168868E225403A0700C1E209 /* GraphCapsule.swift */; };
+		168868E725403C3100C1E209 /* ChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168868E625403C3100C1E209 /* ChartModel.swift */; };
+		168868EA25403C4C00C1E209 /* BarChartGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168868E925403C4C00C1E209 /* BarChartGraph.swift */; };
+		168868F225403D1500C1E209 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168868F125403D1500C1E209 /* BarChartView.swift */; };
+		168E90522542DC3D005AF387 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168E90512542DC3D005AF387 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +55,13 @@
 		16825804253F25C300FD2540 /* ColorfulButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorfulButtonStyle.swift; sourceTree = "<group>"; };
 		16825807253F260300FD2540 /* ColorfulBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorfulBackground.swift; sourceTree = "<group>"; };
 		1682580A253F26BB00FD2540 /* ColorfulToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorfulToggleStyle.swift; sourceTree = "<group>"; };
+		1682580E253F621800FD2540 /* DarkNeumorphicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkNeumorphicButton.swift; sourceTree = "<group>"; };
+		16825812253F829900FD2540 /* NeumorphicButton5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButton5.swift; sourceTree = "<group>"; };
+		168868E225403A0700C1E209 /* GraphCapsule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
+		168868E625403C3100C1E209 /* ChartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartModel.swift; sourceTree = "<group>"; };
+		168868E925403C4C00C1E209 /* BarChartGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartGraph.swift; sourceTree = "<group>"; };
+		168868F125403D1500C1E209 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		168E90512542DC3D005AF387 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +94,11 @@
 		168257CD253EC5DD00FD2540 /* swiftui.neumorphic */ = {
 			isa = PBXGroup;
 			children = (
+				168868DF2540350500C1E209 /* BarChart */,
 				168257F8253F1ABA00FD2540 /* Bkg */,
 				168257ED253ECAE400FD2540 /* Shapes */,
-				168257E8253EC63300FD2540 /* Controls */,
+				168868DD254034E800C1E209 /* Toggle */,
+				168257E8253EC63300FD2540 /* Buttons */,
 				168257DE253EC5F400FD2540 /* Extensions */,
 				168257CE253EC5DD00FD2540 /* swiftui_neumorphicApp.swift */,
 				168257D0253EC5DD00FD2540 /* ContentView.swift */,
@@ -112,18 +128,20 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		168257E8253EC63300FD2540 /* Controls */ = {
+		168257E8253EC63300FD2540 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
 				168257E9253EC65A00FD2540 /* NeumorphicButton.swift */,
 				168257F1253ECCE100FD2540 /* NeumorphicButton2.swift */,
 				168257F5253F0DEC00FD2540 /* NeumorphicButton3.swift */,
+				16825812253F829900FD2540 /* NeumorphicButton5.swift */,
+				1682580E253F621800FD2540 /* DarkNeumorphicButton.swift */,
 				168257FD253F1AF600FD2540 /* DarkButtonStyle.swift */,
 				16825800253F215200FD2540 /* DarkToggleStyle.swift */,
 				16825804253F25C300FD2540 /* ColorfulButtonStyle.swift */,
 				1682580A253F26BB00FD2540 /* ColorfulToggleStyle.swift */,
 			);
-			path = Controls;
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 		168257ED253ECAE400FD2540 /* Shapes */ = {
@@ -141,6 +159,41 @@
 				16825807253F260300FD2540 /* ColorfulBackground.swift */,
 			);
 			path = Bkg;
+			sourceTree = "<group>";
+		};
+		168868DD254034E800C1E209 /* Toggle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Toggle;
+			sourceTree = "<group>";
+		};
+		168868DF2540350500C1E209 /* BarChart */ = {
+			isa = PBXGroup;
+			children = (
+				168E90502542DC25005AF387 /* VM */,
+				168868E525403C2800C1E209 /* Model */,
+				168868F125403D1500C1E209 /* BarChartView.swift */,
+				168868E925403C4C00C1E209 /* BarChartGraph.swift */,
+				168868E225403A0700C1E209 /* GraphCapsule.swift */,
+			);
+			path = BarChart;
+			sourceTree = "<group>";
+		};
+		168868E525403C2800C1E209 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				168868E625403C3100C1E209 /* ChartModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		168E90502542DC25005AF387 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				168E90512542DC3D005AF387 /* ViewModel.swift */,
+			);
+			path = VM;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,17 +269,24 @@
 				168257F6253F0DEC00FD2540 /* NeumorphicButton3.swift in Sources */,
 				168257EA253EC65A00FD2540 /* NeumorphicButton.swift in Sources */,
 				168257CF253EC5DD00FD2540 /* swiftui_neumorphicApp.swift in Sources */,
+				168868EA25403C4C00C1E209 /* BarChartGraph.swift in Sources */,
+				168E90522542DC3D005AF387 /* ViewModel.swift in Sources */,
+				1682580F253F621800FD2540 /* DarkNeumorphicButton.swift in Sources */,
 				16825808253F260300FD2540 /* ColorfulBackground.swift in Sources */,
 				168257E6253EC5F500FD2540 /* LinearGradientExtension.swift in Sources */,
+				16825813253F829900FD2540 /* NeumorphicButton5.swift in Sources */,
 				16825801253F215200FD2540 /* DarkToggleStyle.swift in Sources */,
 				168257F2253ECCE100FD2540 /* NeumorphicButton2.swift in Sources */,
+				168868E725403C3100C1E209 /* ChartModel.swift in Sources */,
 				168257E4253EC5F500FD2540 /* ViewExtension.swift in Sources */,
+				168868F225403D1500C1E209 /* BarChartView.swift in Sources */,
 				168257E3253EC5F500FD2540 /* UIColorExtension.swift in Sources */,
 				16825805253F25C300FD2540 /* ColorfulButtonStyle.swift in Sources */,
 				168257EF253ECAF100FD2540 /* PolygonShape.swift in Sources */,
 				168257FE253F1AF600FD2540 /* DarkButtonStyle.swift in Sources */,
 				1682580B253F26BB00FD2540 /* ColorfulToggleStyle.swift in Sources */,
 				168257E5253EC5F500FD2540 /* ColorExtension.swift in Sources */,
+				168868E325403A0700C1E209 /* GraphCapsule.swift in Sources */,
 				168257FA253F1ACF00FD2540 /* DarkBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

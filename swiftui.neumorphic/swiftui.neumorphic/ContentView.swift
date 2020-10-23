@@ -7,6 +7,55 @@
 
 import SwiftUI
 
+
+
+
+
+//BAR CHART
+struct ContentView: View {
+    var body: some View {
+        BarChartView(bgColor: Color.neuBackground)
+            .foregroundColor(.gray)
+    }
+}
+
+
+//struct ContentView: View {
+//    var body: some View {
+//
+//        ZStack {
+////            NeumorphicButton5(bgColor: Color.neuBackground )
+////                .frame(maxWidth: .infinity,
+////                            maxHeight: .infinity)
+////                            .background(Color.neuBackground)
+////                            .edgesIgnoringSafeArea(.all)
+////
+////
+//            Color.neuBackground
+//
+//            Button("Neumorphic", action: {
+//            }).buttonStyle(NeumorphicButton5Style(bgColor: .neuBackground))
+//        }
+//    }
+//}
+
+
+
+// DARK THEME
+//struct ContentView: View {
+//    var body: some View {
+//                DarkNeumorphicButton(bgColor: Color.init(#colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)) )
+//                    .frame(maxWidth: .infinity,
+//                                maxHeight: .infinity)
+//                                .background(Color.init(#colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)))
+//                                .edgesIgnoringSafeArea(.all)
+//    }
+//}
+
+
+
+
+//
 //struct ContentView: View {
 //    @State var selectedItem: ButtonItemType = .mic
 //    var body: some View {
@@ -22,15 +71,18 @@ import SwiftUI
 //
 //
 //            VStack(spacing: 32) {
+//
 //                Button(action: {}) {
 //                    Image(systemName: "mic")
 //                        .foregroundColor(.gray)
 //                }
 //                .buttonStyle(SimpleButtonStyle())
 //
-//                NeumorphicButton2(selectedItem: $selectedItem, imageSystemName: "mic", size: 40, type: .mic, action: nil)
+//                HStack(spacing: 32) {
+//                    NeumorphicButton2(selectedItem: $selectedItem, imageSystemName: "mic", size: 40, type: .mic, gradientNormal: .lairDiagonalLightBorder, gradientWhenPressed: .lairHorizontalDarkToLight, action: nil)
 //
-//                NeumorphicButton2(selectedItem: $selectedItem, imageSystemName: "trash", size: 40, type: .trash, action: nil)
+//                    NeumorphicButton2(selectedItem: $selectedItem, imageSystemName: "trash", size: 40, type: .trash, gradientNormal: .lairDiagonalLightBorder, gradientWhenPressed: .lairHorizontalDarkToLight,action: nil)
+//                }
 //            }
 //        }
 //        .edgesIgnoringSafeArea(.all)
@@ -39,53 +91,51 @@ import SwiftUI
 //}
 
 // DARK THEME
-struct ContentView: View {
-    @State var selectedItem: ButtonItemType = .mic
-    
-    @State private var isToggled = false
-    
-    
-    var body: some View {
-        
-        ZStack {
-            LinearGradient(Color.darkStart, Color.darkEnd)
-
-            VStack(spacing: 32) {
-                Button(action: {}) {
-                    Image(systemName: "mic")
-                        .foregroundColor(.gray)
-                }
-                .buttonStyle(DarkButtonStyle())
-                
-                Toggle(isOn: $isToggled) {
-                                   Image(systemName: "mic")
-                                       .foregroundColor(.white)
-                               }
-                               .toggleStyle(DarkToggleStyle())
-                
-                
-                
-                Button(action: {
-                    print("Button tapped")
-                }) {
-                    Image(systemName: "mic")
-                        .foregroundColor(.white)
-                }
-                .buttonStyle(ColorfulButtonStyle())
-                
-                
-                
-                Toggle(isOn: $isToggled) {
-                    Image(systemName: "mic")
-                        .foregroundColor(.white)
-                }
-                .toggleStyle(ColorfulToggleStyle())
-                
-            }
-        }
-        .edgesIgnoringSafeArea(.all)
-    }
-}
+//struct ContentView: View {
+//
+//    @State var selectedItem: ButtonItemType = .mic
+//    @State private var isToggled = false
+//
+//    var body: some View {
+//
+//        ZStack {
+//            LinearGradient(Color.darkStart, Color.darkEnd)
+//
+//            VStack(spacing: 32) {
+//
+//                Button(action: {}) {
+//                    Image(systemName: "mic")
+//                        .foregroundColor(.gray)
+//                }
+//                .buttonStyle(DarkButtonStyle())
+//
+//                Toggle(isOn: $isToggled) {
+//                                   Image(systemName: "mic")
+//                                       .foregroundColor(.white)
+//                               }
+//                               .toggleStyle(DarkToggleStyle())
+//
+//
+//                Button(action: {
+//                    print("Button tapped")
+//                }) {
+//                    Image(systemName: "mic")
+//                        .foregroundColor(.white)
+//                }
+//                .buttonStyle(ColorfulButtonStyle())
+//
+//
+//
+//                Toggle(isOn: $isToggled) {
+//                    Image(systemName: "mic")
+//                        .foregroundColor(.white)
+//                }
+//                .toggleStyle(ColorfulToggleStyle())
+//            }
+//        }
+//        .edgesIgnoringSafeArea(.all)
+//    }
+//}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

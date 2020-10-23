@@ -1,8 +1,6 @@
 import SwiftUI
 
 
-
-
 struct PolygonView: View {
     
     @State private var sides: Double = 4
